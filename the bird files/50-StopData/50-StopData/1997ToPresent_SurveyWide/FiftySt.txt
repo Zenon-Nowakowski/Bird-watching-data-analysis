@@ -1,0 +1,26 @@
+Consists of all "Breeding" bird records on the run of route. 
+There is one row in the Fifty Stop file for every species detected on each run of a route. 
+
+
+The Breeding Fifty Stop files contain the following columns: 
+
+RouteDataID		Data identification number; unique for each unique combination of countrynum region, route,
+			RPID, and year.
+
+CountryNum		The three-digit numeric code that identifies the country where route is located (See RegionCodes.txt file.).
+
+StateNumber  		The two digit numeric code that identifies the state, province, or territory 
+			where the route is located (See RegionCodes.txt file.).
+
+Route        		The three digit code that identifies the route.
+
+RPID			Run Protocol Identification Number (See RunProtocolID.txt file.).
+
+Year         		The year the route was sampled.
+
+Aou          		The five digit species identification code.
+
+Stop1...Stop50		The number of individuals per species recorded at each stop of the route.
+
+
+Systematic collection of fifty stop data began in 1997 and continues into present year. 
